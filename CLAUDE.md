@@ -31,7 +31,7 @@ XLSX_DIA1="$D1" XLSX_DIA2="$D2" python scripts/refresh.py
 **Forçar deploy imediato (caso o auto-deploy demore):**
 ```bash
 DEPLOY=$(npx vercel --prod --yes 2>&1 | grep -oE "ppb1-[a-z0-9]+" | head -1)
-npx vercel alias set "$DEPLOY-jeffersonvianna-devs-projects.vercel.app" ppb1.vercel.app
+npx vercel alias set "$DEPLOY-diaval-seduc-sp.vercel.app" ppb1.vercel.app
 ```
 
 **Override manual do timestamp do header** (quando quiser exibir hora diferente da do xlsx):
